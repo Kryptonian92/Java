@@ -1,0 +1,13 @@
+
+public class Cat extends Animal {
+	
+	public Cat(){
+		return "Meow";
+	}
+	
+	public static void main(String[] args){
+		Animal fido=new Dog();
+		Animal fluffy=new Cat();
+	}
+
+}

@@ -47,8 +47,8 @@ public class Animal {
 			this.setName(userInput.nextLine());
 		}
 		
-//		this.setFavoriteColor();
-//		this.uniqueID();
+		this.setFavoriteColor();
+		this.uniqueID();
 	}
 	
 	public String getName() {
@@ -130,25 +130,7 @@ public class Animal {
 			System.out.println("Favorite character is lowercase");
 		}
 		if(((randomNumber > 97) && (randomNumber < 122)) || ((randomNumber > 64) && (randomNumber < 91))){
-			System.out.println("Favorite character is letter");
-		}
-		int whichIsBigger = (50 > randomNumber) ? 50 : randomNumber;
-		
-		switch(randomNumber){
-
-			
-			case 8:
-				System.out.println("Favorite character set to backspace ");
-				break;
-			case 10:
-			case 11:
-			case 12:
-				System.out.println("Favorite character set to backspace ");
-				break;
-				
-			default:
-				System.out.println("No matches");
-				break;
+			System.out.println("Favorite character is lowercase");
 		}
 	}
 
@@ -167,65 +149,9 @@ public class Animal {
 	public void setHeight(float height) {
 		this.height = height;
 	}
-	
-	protected static void countTo(int startingNumber){
-		for(int i=startingNumber; i<=100; i++){
-			if(i==90) continue;
-			
-			System.out.println(i);
-		}
-	}
-	
-	protected static String printNumbers(int maxNumbers){
-		
-		int i=1; 
-		
-		while(i < (maxNumbers / 2)){
-			System.out.println(i);
-			i++;
-			
-			if(i==(maxNumbers/2)) break;
-		}
-		
-		Animal.countTo(maxNumbers/2);
-		return "End of printNumbers";
-	}
 
-	protected static void guessMyNumber(){
-		int number;
-		
-		do{
-			System.out.println("Guess number up to 100");
-			
-			while(!userInput.hasNextInt()){
-				String numberEntered = userInput.next();
-				System.out.printf("%s is not a number\n", numberEntered);
-				
-				
-			}
-			number = userInput.nextInt();
-		}while(number != 50);
-	}
-	
-	public String makeSound(){
-		return "Grrr";
-	}
-	
-	public static void speakAnimal(Animal randAnimal){
-		System.out.println("Animal says" + randAnimal.makeSound());
-		
-	}
 	public static void main (String[] args){
 		Animal theAnimal = new Animal();
 		
-		int[] favoriteNumbers= new int[20];
-		favoriteNumbers[0] = 100;
-		
-		String[] stringArray = {"Random", "Words", "Here"};
-		
-		for(String word : stringArray){
-			System.out.println(word);
-		}
-		// multi dimensional array		
 	}
 }

@@ -226,6 +226,6 @@ public class Animal {
 		for(String word : stringArray){
 			System.out.println(word);
 		}
-		// multi dimensional array		
+				
 	}
 }
