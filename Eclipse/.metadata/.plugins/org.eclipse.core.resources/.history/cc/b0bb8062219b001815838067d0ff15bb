@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Palindrone 
+{
+	public static void main (String args[])
+	{
+		String a;
+		String b;
+		
+		Scanner obj = new Scanner(System.in);
+		System.out.println("Enter your first word: ");
+		a = obj.nextLine();
+		System.out.println(a);
+		
+		System.out.println("Enter your second word: ");
+		b = obj.nextLine();
+		System.out.println(b);
+		
+		if(a.equals(b))
+		{
+			System.out.println(string.);
+		}
+	}
+}

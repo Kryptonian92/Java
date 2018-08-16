@@ -1,0 +1,17 @@
+
+public class Algo {
+	public void test(){
+		System.out.println("Hello World");
+	}
+	public static void main (String[] args){
+
+//		String[] stringArray = {"Random", "Words", "Here"};
+		
+		System.out.println("Hello World");
+		
+//		for(String word : stringArray){
+//			System.out.println(word);
+//		}
+		// multi dimensional array		
+	}
+}

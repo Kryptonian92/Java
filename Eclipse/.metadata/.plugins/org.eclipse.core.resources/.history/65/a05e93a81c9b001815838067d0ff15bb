@@ -1,0 +1,10 @@
+public class Palindrone 
+{
+	public static void main (String args[])
+	{
+		String a = "race car";
+		String b = "rac ecar";
+		
+		System.out.println(a);
+	}
+}
