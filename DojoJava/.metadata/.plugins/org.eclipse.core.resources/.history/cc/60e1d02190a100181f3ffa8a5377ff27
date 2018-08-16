@@ -1,0 +1,11 @@
+public class ImportDemoTest {
+	public static void main (String[] args){
+		ImportDemo ID = new ImportDemo();
+		String currentDate = ID.getCurrentDate();
+		System.out.println(currentDate);
+		System.out.println(ID);
+		Adding ID = new Adding();
+		int results = ID.AddNumbers();
+		System.out.println(results);
+	}
+}
