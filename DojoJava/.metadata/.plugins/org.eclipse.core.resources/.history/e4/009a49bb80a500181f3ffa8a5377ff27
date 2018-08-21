@@ -1,0 +1,14 @@
+//public class PythagoreanTest {
+//	public static void main(Double[] args){
+//		Pythagorean calc = new Pythagorean();
+//		Double.Pythagorean();
+//	}
+//}
+
+public class PythagoreanTest{
+	public static void main(String[] args){
+		Pythagorean class1 = new Pythagorean();
+		class1.calculateHypotenuse();
+		
+	}
+}

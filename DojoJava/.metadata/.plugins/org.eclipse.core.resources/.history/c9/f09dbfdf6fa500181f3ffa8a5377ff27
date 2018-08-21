@@ -1,0 +1,8 @@
+public class MethodsTest {
+	
+	public static void main(String[] args){
+		Methods ID = new Methods();
+		System.out.println(ID);
+//		methodRankPoints(225.7);
+	}
+}

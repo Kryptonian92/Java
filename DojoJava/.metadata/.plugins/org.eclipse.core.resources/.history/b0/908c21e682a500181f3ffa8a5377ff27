@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class PythagoreanTest{
+	public static void main(String[] args){
+		Scanner reader = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		int n = reader.nextInt();
+		Pythagorean class1 = new Pythagorean();
+		class1.calculateHypotenuse(40, 9);
+	}
+}
