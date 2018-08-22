@@ -1,0 +1,16 @@
+
+public class StringDemo {
+	public static void main (String[] args){
+		String ninja = "Coding dojo is cool";
+		String string1 = "My name is ";
+		String string2 = "Ausar ";
+		String string3 = string1.concat(string2);
+		String ninja2 = String.format("Hi %s, you owe me $%.3f !", "Jack", 25.0);
+
+		int length = ninja.length();
+		System.out.println(string3);
+		System.out.println("String length is : " + length);
+		System.out.println(ninja2);
+
+	}
+}

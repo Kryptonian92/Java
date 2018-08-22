@@ -1,0 +1,9 @@
+public class FizzBuzz {
+	public String fizzBuzz(int num){
+//		System.out.println(num);
+		if(num/3==0){
+			System.out.println("Buzz");
+		}
+		return ("done");
+	}
+}

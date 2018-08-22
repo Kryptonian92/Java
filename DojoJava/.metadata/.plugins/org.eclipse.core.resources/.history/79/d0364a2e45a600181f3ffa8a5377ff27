@@ -1,0 +1,11 @@
+public class Conditionals {
+	public static void main (String[] args){
+
+		boolean defenderGuarding = true;
+		if(defenderGuarding == true) {
+		    System.out.println("Pass The Ball");
+		} else {
+		    System.out.println("Shoot The Ball");
+		}
+	}
+}

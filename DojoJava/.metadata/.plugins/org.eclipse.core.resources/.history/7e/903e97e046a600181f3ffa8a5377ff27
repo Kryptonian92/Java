@@ -1,0 +1,6 @@
+public class FizzBuzz {
+	public String fizzBuzz(int numberNum){
+		System.out.println(numberNum);
+		return ("numberNum");
+	}
+}
