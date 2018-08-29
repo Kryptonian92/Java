@@ -1,0 +1,6 @@
+public class StringManipulator {
+	public void test(String word1, String word2){
+		String clip = (word1 + word2);
+		System.out.println(clip);		
+	}
+}

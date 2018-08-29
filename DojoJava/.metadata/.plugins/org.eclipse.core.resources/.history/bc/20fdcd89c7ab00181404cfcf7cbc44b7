@@ -1,0 +1,10 @@
+public class StringManipulator {
+	public void message(String word){
+		System.out.println("Hello world");
+		System.out.println(word);
+		
+	}
+//	public void trimAndConcat(word){
+//		System.out.println(word);
+//	}
+}

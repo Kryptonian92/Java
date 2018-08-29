@@ -1,0 +1,7 @@
+//program to practice manipulating strings
+public class StringManipulatorTest {
+	public static void main(String[] args){
+		StringManipulator class1 = new StringManipulator();
+		class1.test("   Hello world   ", "   World   ");
+	}
+}

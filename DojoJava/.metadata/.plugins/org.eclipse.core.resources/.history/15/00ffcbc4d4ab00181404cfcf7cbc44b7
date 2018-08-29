@@ -1,0 +1,13 @@
+public class StringManipulator {
+	public void trimAndConcat(String word1, String word2){
+		System.out.println(word1.trim() + word2.trim());		
+	}
+	public void getIndexOrNull(String word, String letter){
+		Integer a = word.indexOf(letter);
+		if(a>1){
+			System.out.println("Null");
+		}else{
+			System.out.println(a);
+		}
+	}
+}

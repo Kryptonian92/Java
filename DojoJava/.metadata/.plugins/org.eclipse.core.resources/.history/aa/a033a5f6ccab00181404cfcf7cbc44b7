@@ -1,0 +1,6 @@
+public class StringManipulator {
+	public void trimAndConcat(String word1, String word2){
+		System.out.println(word1.trim() + word2.trim());		
+	}
+//	public void 
+}
