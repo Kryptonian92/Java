@@ -1,0 +1,8 @@
+public class Methods {
+	public void message(int num){
+		System.out.println("Hello World" + num);
+	}
+	public void newMessage(){
+		System.out.println("This is the second message");
+	}
+}

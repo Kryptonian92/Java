@@ -1,7 +1,11 @@
+//Test file for Methods.java
+//testing some fundamentals of methods(functions)
 public class MethodsTest {
-	
 	public static void main(String[] args){
 		Methods class1 = new Methods();
-		class1.message();
+		class1.message(5, " apples");
+		class1.newMessage();
+		class1.message(8, " oranges");
+
 	}
 }
