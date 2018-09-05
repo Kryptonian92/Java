@@ -147,18 +147,14 @@ public class Basic13 {
 //	}
 	
 	//shifts each element in the array to the left
-	public void shift(int[] oldArr){
-		//for practice, I initialized the variable in the loop
-		//
-//		int i=0;
-//		int[] oldArr={1,5,10,7,-2};
-		for(int i=0; i<oldArr.length; i++){
-			try{
-				oldArr[i]=oldArr[i+1];
-			} catch(ArrayIndexOutOfBoundsException e){
-				oldArr[i]=0;
-			}
+	public void shift(){
+		int i=0;
+		int[] oldArr={1,5,10,7,-2};
+		ArrayList<Integer> newArr= new ArrayList<Integer>();
+		for(i=0; i<oldArr.length; i++){
+			newArr.add(oldArr[i]);
 		}
-		System.out.println(Arrays.toString(oldArr));
+		
+		System.out.println(newArr);
 	}
 }

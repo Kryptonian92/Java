@@ -14,7 +14,7 @@ public class Basic13Test {
 //		class1.square();
 //		class1.eliminate();
 //		class1.minMaxAverage();
-		int[] oldArr = {1,2,10,7,-2};
+		int[] oldArr = {1,2,3};
 		class1.shift(oldArr);
 	}
 }

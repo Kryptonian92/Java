@@ -148,8 +148,6 @@ public class Basic13 {
 	
 	//shifts each element in the array to the left
 	public void shift(int[] oldArr){
-		//for practice, I initialized the variable in the loop
-		//
 //		int i=0;
 //		int[] oldArr={1,5,10,7,-2};
 		for(int i=0; i<oldArr.length; i++){
