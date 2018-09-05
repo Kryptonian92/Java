@@ -1,0 +1,7 @@
+//test file for Basic13
+public class Basic13Test {
+	public static void main (String[] args){
+		Basic13 class1 = new Basic13();
+		class1.twofivefive();
+	}
+}

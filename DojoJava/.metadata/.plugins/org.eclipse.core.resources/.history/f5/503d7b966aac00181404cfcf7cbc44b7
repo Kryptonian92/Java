@@ -1,0 +1,27 @@
+//Array practice and fundamentals
+import java.util.ArrayList;
+public class Arrays {
+	public void arrayNum(){
+		//initiallizing an array
+		int[] oldArray={4,8,8,5,9};
+		
+		//you can add values to ArrayList
+		ArrayList<Integer> myArray = new ArrayList<Integer>();
+		myArray.add(10);
+		int num = myArray.get(0);
+		
+		//adding different data types to a Object generic
+		ArrayList<Object> list = new ArrayList<Object>();
+		list.add(10);
+		list.add("Hello");
+		list.add(new ArrayList<Integer>());
+		list.add(new Double(12.0));
+		
+		
+		System.out.println(num);
+		System.out.println(oldArray);
+		System.out.print(myArray);
+		System.out.print(list
+				);
+	}
+}

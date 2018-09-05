@@ -1,0 +1,11 @@
+//test file for Basic13
+public class Basic13Test {
+	public static void main (String[] args){
+		//creating a new Basics13 object and calling the methods
+		Basic13 class1 = new Basic13();
+		class1.twofivefive();
+		class1.oddTwoFive();
+		class1.printSum();
+		class1.iterate();
+	}
+}

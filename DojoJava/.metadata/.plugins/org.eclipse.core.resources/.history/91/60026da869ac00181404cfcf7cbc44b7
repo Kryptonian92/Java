@@ -1,0 +1,11 @@
+//Array practice and fundamentals
+import java.util.ArrayList;
+public class Arrays {
+	public void arrayNum(){
+		int[] oldArray={4,8,8,5,9};
+		ArrayList<Integer> myArray = new ArrayList<Integer>();
+		myArray.add(10,20);
+		System.out.println(oldArray);
+		System.out.print(myArray);
+	}
+}

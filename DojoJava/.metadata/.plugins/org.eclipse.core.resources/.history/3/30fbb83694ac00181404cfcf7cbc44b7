@@ -1,0 +1,21 @@
+//Basic 13 in Java
+public class Basic13 {
+	//counts to 255, just replace the 10 with 256
+	public void twofivefive(){
+		int a = 0;
+		for(a=0; a<10; a++){
+			System.out.println(a);
+		}
+		System.out.println("End of 1-255");
+	}
+	public void oddTwoFive(){
+		int b=0;
+		for(b=0; b<10; b++){
+			if(b%2==1){
+				System.out.println(b);
+			}
+		}
+		System.out.println("End of odd 1-255");
+	}
+	
+}

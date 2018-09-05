@@ -1,0 +1,6 @@
+//Array practice and fundamentals
+public class Arrays {
+	public void arraryNum(){
+		System.out.print("Hello World");
+	}
+}
